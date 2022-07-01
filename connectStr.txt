@@ -1,0 +1,6 @@
+不带密码数据库的连接
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Mydocument\reif.mdb;Persist Security Info=False
+
+select 顺号,购货路局, 购货单位, 签定日期, [合同(订单)金额], 开据金额, 回款累计, 备注 from 05年轨道衡合同
+带密码数据库的连接
+Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Mydoc\demo_req.mdb;Persist Security Info=False;Jet OLEDB:Database Password=xiaobin1234567
